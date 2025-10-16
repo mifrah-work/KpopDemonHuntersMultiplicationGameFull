@@ -2,7 +2,7 @@
   "name": "kpop-demon-hunters-all",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mifrah-work.github.io/KpopDemonHuntersMultiplicationAll",
+  "homepage": "https://mifrah-work.github.io/KpopDemonHuntersMultiplicationGameFull",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
