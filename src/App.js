@@ -22,6 +22,12 @@ function App() {
     localStorage.setItem('multiplicationGameProgressAll', JSON.stringify(newUnlockedDays));
   };
 
+  const resetProgress = () => {
+    localStorage.removeItem('multiplicationGameProgressAll');
+    setUnlockedDays([1]);
+    setCurrentScreen('daySelection');
+  };
+
   const handleSelectDay = (day) => {
     setSelectedDay(day);
     setCurrentScreen('chapterStory');
@@ -50,26 +56,24 @@ function App() {
   return (
     <div className="App">
       {currentScreen === 'daySelection' && (
-        <DaySelection 
+        <DaySelection
           onSelectDay={handleSelectDay}
           unlockedDays={unlockedDays}
+          resetProgress={resetProgress}
         />
       )}
-      
       {currentScreen === 'chapterStory' && (
-        <ChapterStory 
+        <ChapterStory
           day={selectedDay}
           onStartGame={handleStartGame}
-          onBack={handleBack}
+          onBack={() => setCurrentScreen('daySelection')}
         />
       )}
-      
       {currentScreen === 'gameBattle' && (
-        <GameBattle 
+        <GameBattle
           day={selectedDay}
           onGameComplete={handleGameComplete}
-          onBack={handleBackToStory}
-          onBackToHome={handleBack}
+          onBack={() => setCurrentScreen('daySelection')}
         />
       )}
     </div>

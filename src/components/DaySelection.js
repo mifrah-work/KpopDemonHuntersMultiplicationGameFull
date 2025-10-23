@@ -1,13 +1,21 @@
 import React from 'react';
 import { gameData } from '../data/gameData';
 
-const DaySelection = ({ onSelectDay, unlockedDays }) => {
+const DaySelection = ({ onSelectDay, unlockedDays, resetProgress }) => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 via-blue-900 to-indigo-900 p-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-6xl font-bold text-center text-yellow-400 mb-4 drop-shadow-lg">
-          🌟 Multiplication Quest 🌟
-        </h1>
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="text-6xl font-bold text-yellow-400 drop-shadow-lg">
+            🌟 Multiplication Quest 🌟
+          </h1>
+          <button
+            onClick={resetProgress}
+            className="px-6 py-3 bg-red-600 hover:bg-red-500 text-white font-bold rounded-xl shadow transition-all duration-300 ml-4"
+          >
+            🔄 Reset Progress
+          </button>
+        </div>
         <p className="text-xl text-center text-white mb-12">
           Choose your adventure! Help Huntrix defeat the demons!
         </p>
