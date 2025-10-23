@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KpopDemonHuntersMultiplicationGameFull/static/css/main.7a737f87.css",
-    "main.js": "/KpopDemonHuntersMultiplicationGameFull/static/js/main.71e57bc9.js",
+    "main.css": "/KpopDemonHuntersMultiplicationGameFull/static/css/main.69b68fbf.css",
+    "main.js": "/KpopDemonHuntersMultiplicationGameFull/static/js/main.05b48279.js",
     "static/media/mira.png": "/KpopDemonHuntersMultiplicationGameFull/static/media/mira.1831809346e776d38e9d.png",
     "static/media/saja.png": "/KpopDemonHuntersMultiplicationGameFull/static/media/saja.4fe2ec44ac79e3271fb8.png",
     "static/media/zoe.png": "/KpopDemonHuntersMultiplicationGameFull/static/media/zoe.66018213f4188c9e5dee.png",
@@ -13,11 +13,11 @@
     "static/media/done.mp3": "/KpopDemonHuntersMultiplicationGameFull/static/media/done.fca56343f2ee2946bfb8.mp3",
     "static/media/takedown.mp3": "/KpopDemonHuntersMultiplicationGameFull/static/media/takedown.082ae552ddfc2732a6ed.mp3",
     "index.html": "/KpopDemonHuntersMultiplicationGameFull/index.html",
-    "main.7a737f87.css.map": "/KpopDemonHuntersMultiplicationGameFull/static/css/main.7a737f87.css.map",
-    "main.71e57bc9.js.map": "/KpopDemonHuntersMultiplicationGameFull/static/js/main.71e57bc9.js.map"
+    "main.69b68fbf.css.map": "/KpopDemonHuntersMultiplicationGameFull/static/css/main.69b68fbf.css.map",
+    "main.05b48279.js.map": "/KpopDemonHuntersMultiplicationGameFull/static/js/main.05b48279.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a737f87.css",
-    "static/js/main.71e57bc9.js"
+    "static/css/main.69b68fbf.css",
+    "static/js/main.05b48279.js"
   ]
 }
